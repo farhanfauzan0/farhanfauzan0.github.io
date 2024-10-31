@@ -2,6 +2,7 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 const base = '';
+//gg
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

@@ -70,7 +70,19 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Laravel: a('laravel.svg'),
+	PHP: a('PHP.svg'),
+	Gin: a('gin.svg'),
+	Sqlserver: a('sqlserver.svg'),
+	Mysql: a('mysql.svg'),
+	Oracle: a('oracle.svg'),
+	CI: a('codeigniter.svg'),
+	Github: a('github.svg'),
+	Gitlab: a('gitlab.svg'),
+	Vscode: a('vscode.svg'),
+	Postman: a('postman.svg'),
+	VBnet: a('vbnet.svg'),
 };
 
 export default Assets;

@@ -22,6 +22,7 @@ export enum ContractType {
 }
 
 export type Asset = string | { light: string; dark: string };
+export type AssetProject = string | { light: string; dark: string };
 
 export interface Item<S extends string = string> {
 	slug: S;
@@ -29,7 +30,7 @@ export interface Item<S extends string = string> {
 	logo: Asset;
 	shortDescription: string;
 	description: string;
-	screenshots?: Array<{ src: string; label: string }>;
+	screenshots?: Array<{ src: AssetProject; label: string }>;
 }
 
 export interface Link {
